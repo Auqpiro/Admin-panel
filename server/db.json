@@ -1,0 +1,347 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "name": "Dell PowerEdge T40 Server",
+      "type": "vm_host",
+      "location": "location-2",
+      "office": "test-1",
+      "assetTag": null,
+      "tags": [
+        {
+        "label": "red tag",
+        "color": "danger"
+        },
+        {
+        "label": "orange tag",
+        "color": "warning"
+        }
+      ],
+      "createDate": "Thu, 01 Jan 1970 00:00:00 GMT-0400",
+      "updateDate": "Thu, 01 Jan 1970 00:00:00 GMT-0400",
+      "auditDate": null
+    },
+    {
+      "id": 2,
+      "name": "HP P54644-001",
+      "type": null,
+      "location": "location-3",
+      "office": "test-1",
+      "assetTag": null,
+      "tags": [
+        {
+          "label": "green tag",
+          "color": "success"
+        }
+      ],
+      "createDate": "Thu, 01 Jan 1970 00:00:00 GMT-0400",
+      "updateDate": "Thu, 01 Jan 1970 00:00:00 GMT-0400",
+      "auditDate": null
+    },
+    {
+      "id": 3,
+      "name": "iXsystems XL+",
+      "type": null,
+      "location": "location-4",
+      "office": "test-1",
+      "assetTag": null,
+      "tags": [
+        {
+          "label": "blue tag",
+          "color": "primary"
+        }
+      ],
+      "createDate": "Thu, 01 Jan 1970 00:00:00 GMT-0400",
+      "updateDate": "Thu, 01 Jan 1970 00:00:00 GMT-0400",
+      "auditDate": "Thu, 01 Jan 1970 00:00:00 GMT-0400"
+    },
+    {
+      "id": 4,
+      "name": "Lenovo ThinkServer TS150",
+      "type": "vm_guest",
+      "location": "location-1",
+      "office": "test-1",
+      "assetTag": null,
+      "tags": [],
+      "createDate": "Thu, 01 Jan 1970 00:00:00 GMT-0400",
+      "updateDate": "Thu, 01 Jan 1970 00:00:00 GMT-0400",
+      "auditDate": "Thu, 01 Jan 1970 00:00:00 GMT-0400"
+    },
+    {
+      "id": 5,
+      "name": "HP Proliant Microserver Gen8",
+      "type": "vm_guest",
+      "location": "location-4",
+      "office": "test-1",
+      "assetTag": null,
+      "tags": [
+        {
+          "label": "blue tag",
+          "color": "primary"
+        }
+      ],
+      "createDate": "Thu, 01 Jan 1970 00:00:00 GMT-0400",
+      "updateDate": "Thu, 01 Jan 1970 00:00:00 GMT-0400",
+      "auditDate": "Thu, 01 Jan 1970 00:00:00 GMT-0400"
+    },
+    {
+      "id": 6,
+      "name": "Hewlett Packard Enterprise P10812-001",
+      "type": null,
+      "location": "location-1",
+      "office": "test-1",
+      "assetTag": null,
+      "tags": [],
+      "createDate": "Thu, 01 Jan 1970 00:00:00 GMT-0400",
+      "updateDate": "Thu, 01 Jan 1970 00:00:00 GMT-0400",
+      "auditDate": null
+    },
+    {
+      "id": 7,
+      "name": "Supermicro SYS-5018D-FN4T",
+      "type": null,
+      "location": "location-3",
+      "office": "test-1",
+      "assetTag": null,
+      "tags": [
+        {
+        "label": "red tag",
+        "color": "danger"
+        }
+      ],
+      "createDate": "Thu, 01 Jan 1970 00:00:00 GMT-0400",
+      "updateDate": "Thu, 01 Jan 1970 00:00:00 GMT-0400",
+      "auditDate": null
+    },
+    {
+      "id": 8,
+      "name": "Dell PowerEdge T20",
+      "type": null,
+      "location": "location-4",
+      "office": "test-1",
+      "assetTag": null,
+      "tags": [
+        {
+        "label": "red tag",
+        "color": "danger"
+        }
+      ],
+      "createDate": "Thu, 01 Jan 1970 00:00:00 GMT-0400",
+      "updateDate": "Thu, 01 Jan 1970 00:00:00 GMT-0400",
+      "auditDate": null
+    },
+    {
+      "id": 9,
+      "name": "Hewlett Packard Enterprise P16006-001",
+      "type": "vm_guest",
+      "location": "location-3",
+      "office": "test-1",
+      "assetTag": null,
+      "tags": [
+        {
+          "label": "green tag",
+          "color": "success"
+        }
+      ],
+      "createDate": "Thu, 01 Jan 1970 00:00:00 GMT-0400",
+      "updateDate": "Thu, 01 Jan 1970 00:00:00 GMT-0400",
+      "auditDate": null
+    },
+    {
+      "id": 10,
+      "name": "HP ASISVR154",
+      "type": "vm_host",
+      "location": "location-2",
+      "office": "test-1",
+      "assetTag": null,
+      "tags": [],
+      "createDate": "Thu, 01 Jan 1970 00:00:00 GMT-0400",
+      "updateDate": "Thu, 01 Jan 1970 00:00:00 GMT-0400",
+      "auditDate": "Thu, 01 Jan 1970 00:00:00 GMT-0400"
+    },
+    {
+      "id": 11,
+      "name": "HP ProLiant ML350 G9 5U",
+      "type": "vm_guest",
+      "location": "location-4",
+      "office": "test-1",
+      "assetTag": null,
+      "tags": [
+        {
+          "label": "blue tag",
+          "color": "primary"
+        }
+      ],
+      "createDate": "Thu, 01 Jan 1970 00:00:00 GMT-0400",
+      "updateDate": "Thu, 01 Jan 1970 00:00:00 GMT-0400",
+      "auditDate": "Thu, 01 Jan 1970 00:00:00 GMT-0400"
+    },
+    {
+      "id": 12,
+      "name": "HPE ProLiant ML350 Gen 10",
+      "type": "vm_host",
+      "location": "location-3",
+      "office": "test-1",
+      "assetTag": null,
+      "tags": [
+        {
+        "label": "red tag",
+        "color": "danger"
+        },
+        {
+          "label": "green tag",
+          "color": "success"
+        }
+      ],
+      "createDate": "Thu, 01 Jan 1970 00:00:00 GMT-0400",
+      "updateDate": "Thu, 01 Jan 1970 00:00:00 GMT-0400",
+      "auditDate": null
+    },
+    {
+      "id": 13,
+      "name": "MITXPC 5018D-FN8T",
+      "type": null,
+      "location": "location-5",
+      "office": "test-1",
+      "assetTag": null,
+      "tags": [
+        {
+          "label": "green tag",
+          "color": "success"
+        },
+        {
+        "label": "orange tag",
+        "color": "warning"
+        }
+      ],
+      "createDate": "Thu, 01 Jan 1970 00:00:00 GMT-0400",
+      "updateDate": "Thu, 01 Jan 1970 00:00:00 GMT-0400",
+      "auditDate": null
+    },
+    {
+      "id": 14,
+      "name": "3Gen DL200 HR",
+      "type": null,
+      "location": "location-2",
+      "office": "test-1",
+      "assetTag": null,
+      "tags": [],
+      "createDate": "Thu, 01 Jan 1970 00:00:00 GMT-0400",
+      "updateDate": "Thu, 01 Jan 1970 00:00:00 GMT-0400",
+      "auditDate": "Thu, 01 Jan 1970 00:00:00 GMT-0400"
+    },
+    {
+      "id": 15,
+      "name": "Lenovo ThinkServer TS460",
+      "type": null,
+      "location": "location-1",
+      "office": "test-1",
+      "assetTag": null,
+      "tags": [],
+      "createDate": "Thu, 01 Jan 1970 00:00:00 GMT-0400",
+      "updateDate": "Thu, 01 Jan 1970 00:00:00 GMT-0400",
+      "auditDate": "Thu, 01 Jan 1970 00:00:00 GMT-0400"
+    },
+    {
+      "id": 16,
+      "name": "Fujitsu Primergy TX1310 M1",
+      "type": null,
+      "location": "location-3",
+      "office": "test-1",
+      "assetTag": null,
+      "tags": [
+        {
+          "label": "blue tag",
+          "color": "primary"
+        }
+      ],
+      "createDate": "Thu, 01 Jan 1970 00:00:00 GMT-0400",
+      "updateDate": "Thu, 01 Jan 1970 00:00:00 GMT-0400",
+      "auditDate": null
+    },
+    {
+      "id": 17,
+      "name": "Supermicro SYS-5028D-TN4T",
+      "type": "vm_host",
+      "location": "location-3",
+      "office": "test-1",
+      "assetTag": null,
+      "tags": [
+        {
+          "label": "blue tag",
+          "color": "primary"
+        },
+        {
+          "label": "green tag",
+          "color": "success"
+        }
+      ],
+      "createDate": "Thu, 01 Jan 1970 00:00:00 GMT-0400",
+      "updateDate": "Thu, 01 Jan 1970 00:00:00 GMT-0400",
+      "auditDate": null
+    },
+    {
+      "id": 18,
+      "name": "Dell PowerEdge T30",
+      "type": null,
+      "location": "location-2",
+      "office": "test-1",
+      "assetTag": null,
+      "tags": [
+        {
+        "label": "red tag",
+        "color": "danger"
+        }, 
+        {
+          "label": "blue tag",
+          "color": "primary"
+        },
+        {
+          "label": "green tag",
+          "color": "success"
+        },
+        {
+        "label": "orange tag",
+        "color": "warning"
+        }
+      ],
+      "createDate": "Thu, 01 Jan 1970 00:00:00 GMT-0400",
+      "updateDate": "Thu, 01 Jan 1970 00:00:00 GMT-0400",
+      "auditDate": null
+    },
+    {
+      "id": 19,
+      "name": "Scan 3XS SER-T25",
+      "type": null,
+      "location": "location-2",
+      "office": "test-1",
+      "assetTag": null,
+      "tags": [
+        {
+          "label": "blue tag",
+          "color": "primary"
+        }
+      ],
+      "createDate": "Thu, 01 Jan 1970 00:00:00 GMT-0400",
+      "updateDate": "Thu, 01 Jan 1970 00:00:00 GMT-0400",
+      "auditDate": null
+    },
+    {
+      "id": 20,
+      "name": "Asus TS500",
+      "type": "vm_guest",
+      "location": "location-3",
+      "office": "test-1",
+      "assetTag": null,
+      "tags": [
+        {
+          "label": "blue tag",
+          "color": "primary"
+        }
+      ],
+      "createDate": "Thu, 01 Jan 1970 00:00:00 GMT-0400",
+      "updateDate": "Thu, 01 Jan 1970 00:00:00 GMT-0400",
+      "auditDate": null
+    }
+  ]
+}
