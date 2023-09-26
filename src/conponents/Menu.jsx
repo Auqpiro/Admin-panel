@@ -1,7 +1,7 @@
 import { Accordion, Col, Container, Row } from "react-bootstrap";
 import { Link, Outlet } from "react-router-dom";
 
-function Menu() {
+export function Menu() {
   return (
     <Container>
       <Row>
@@ -25,5 +25,3 @@ function Menu() {
     </Container>
   );
 }
-
-export default Menu;

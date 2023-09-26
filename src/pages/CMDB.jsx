@@ -1,7 +1,7 @@
 import { Breadcrumb } from "react-bootstrap";
 import { Outlet } from "react-router-dom";
 
-function CMDB() {
+export function CMDB() {
   return (
     <>
       <Breadcrumb>
@@ -12,5 +12,3 @@ function CMDB() {
     </>
   );
 }
-
-export default CMDB;

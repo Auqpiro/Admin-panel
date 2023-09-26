@@ -1,18 +1,18 @@
+import PropTypes from 'prop-types';
 import { Badge, Stack, Table } from "react-bootstrap";
 
-const tableHeaders = [
-  "Название",
-  "Тип",
-  "Разположение",
-  "Орг.единица",
-  "Инв.номер",
-  "Теги",
-  "Дата создания",
-  "Дата обновления",
-  "Дата аудита"
-];
-
 function TableItems({ items }) {
+  const tableHeaders = [
+    "Название",
+    "Тип",
+    "Разположение",
+    "Орг.единица",
+    "Инв.номер",
+    "Теги",
+    "Дата создания",
+    "Дата обновления",
+    "Дата аудита"
+  ];
   return (
     <Table className="overflow-auto">
       <thead>
@@ -46,5 +46,9 @@ function TableItems({ items }) {
     </Table>
   );
 }
+
+TableItems.propTypes = {
+  items: PropTypes.array,
+};
 
 export default TableItems;

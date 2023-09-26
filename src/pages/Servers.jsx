@@ -1,10 +1,9 @@
-import axios from "axios";
 import { Suspense } from "react";
 import { Spinner } from "react-bootstrap";
-import { Await, defer, useLoaderData } from "react-router-dom";
+import { Await, useLoaderData } from "react-router-dom";
 import TableContainer from "../conponents/TableContainer";
 
-function Servers() {
+export function Servers() {
   const { items } = useLoaderData();
 
   return (
@@ -12,7 +11,10 @@ function Servers() {
       <h2>Серверы и ПК</h2>
       
       <Suspense fallback={<Spinner animation="border" />}>
-        <Await resolve={items}>
+        <Await
+          resolve={items}
+          errorElement={<h2>Ошибка загрузки!</h2>}
+        >
           {
             (resolvedItems) => <TableContainer items={resolvedItems}/>
           }
@@ -21,17 +23,3 @@ function Servers() {
     </>
   );
 }
-
-const getItems = async () => {
-  const { data } = await axios.get('http://localhost:3001/items');
-  return data;
-};
-
-const itemsLoader = async () => {
-  return defer({
-    items: getItems(),
-  })
-};
-
-export default Servers;
-export { itemsLoader };

@@ -1,5 +1,3 @@
-function Notfound() {
-  return <h1>Something goes wrong!</h1>;
+export function Notfound() {
+  return <h2>Страница не найдена</h2>;
 }
-
-export default Notfound;
